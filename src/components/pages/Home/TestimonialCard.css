@@ -1,0 +1,38 @@
+.testimonial-card {
+  grid-column: auto;
+  grid-row: 2;
+  min-height: 22.75rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  overflow: hidden;
+
+}
+
+.testimonial-card img {
+  width: calc(100% + 32px);
+  max-width: none;
+  aspect-ratio: 5/4;
+  object-fit: cover;
+  margin: -16px -16px 8px;
+}
+
+.testimonial-card h4 {
+  margin: 0 auto 1rem auto;
+}
+
+.testimonial-card span {
+  color: #F4CE14;
+}
+
+/*-- Media queries ------------------------------------------------------*/
+
+@media (max-width: 949px) {
+.testimonial-card {
+  grid-column: auto;
+  grid-row: auto;
+}
+}
